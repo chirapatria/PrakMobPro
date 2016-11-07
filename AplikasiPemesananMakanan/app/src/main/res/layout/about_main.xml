@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/profil"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/beard" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judith Chira Patria"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/txtNama"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1137050120"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textAlignment="center"
+      android:id="@+id/txtNim"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Back"
+        android:id="@+id/buttonBck"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
